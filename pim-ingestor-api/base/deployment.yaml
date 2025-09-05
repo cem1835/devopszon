@@ -27,7 +27,7 @@ spec:
       
       containers:
         - name: pim-ingestor-api
-          image: registry.partvendo.xyz/partvendo/pim-ingestor-api:v1.0.27
+          image: registry.partvendo.xyz/partvendo/pim-ingestor-api:v1.0.33
           command: ["/bin/bash", "-c"]
           args:
             - |
