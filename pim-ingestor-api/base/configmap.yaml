@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pim-ingestor-api-config
+  namespace: partvendo
+data:
+  

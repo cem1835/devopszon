@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pim-ingestor-api
+  labels:
+    app: pim-ingestor-api
+    service: pim-ingestor-api
+spec:
+  type: ClusterIP
+  ports:
+    - port: 80
+      protocol: TCP
+      targetPort: 8080
+      name: http
+  selector:
+    service: pim-ingestor-api
+  
