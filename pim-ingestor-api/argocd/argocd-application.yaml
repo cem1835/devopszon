@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com:443/user/devopszon.git
+    repoURL: https://github.com:443/cem1835/devopszon.git
     targetRevision: HEAD
     path: ./pim-ingestor-api/base
   destination:
